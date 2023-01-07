@@ -49,6 +49,9 @@ nav .links {
   text-decoration: none;
   color: black;
 }
+a:hover {
+  color: rgb(244, 57, 16);
+}
 .hero {
   margin-top: 3rem;
   font-weight: 500;
