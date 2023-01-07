@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+canvas {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+body {
+  overflow-x: hidden;
+  font-family: poppins;
+  color: rgb(31, 30, 30);
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+nav {
+  display: flex;
+  padding: 1rem;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.logo {
+  color: rgb(244, 57, 16);
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+}
+.logo span {
+  color: rgb(71, 71, 71);
+  font-size: medium;
+  font-weight: 500;
+}
+nav .links {
+  display: flex;
+  gap: 3rem;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+}
+.hero {
+  margin-top: 3rem;
+  font-weight: 500;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
